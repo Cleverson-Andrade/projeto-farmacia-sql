@@ -48,9 +48,11 @@ Este projeto serve como uma excelente base para compreender a construção e man
 
 ---
 
-## 📁 Repository Structure
+## 📁 Repository Structure | Estrutura do Repositório
 
-- `script_completo_farmacia.sql` — Complete SQL script containing database creation, data insertion, queries, and examples of updates and deletions.
+- [`script_completo_farmacia.sql`](script_completo_farmacia.sql)  
+  **🇺🇸** Complete SQL script containing database creation, data insertion, queries, and examples of updates and deletions.  
+  **🇧🇷** Script SQL completo contendo a criação do banco de dados, inserção de dados, consultas SQL e exemplos de operações de atualização e exclusão.
 
 ---
 
