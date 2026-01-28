@@ -1,43 +1,59 @@
-# Projeto SQL: Sistema de Gerenciamento de Farmácia (Módulo MySQL)
+# SQL Project – Pharmacy Management System (MySQL)
 
-Este repositório contém o script SQL completo para a implementação de um banco de dados de um sistema de farmácia. O projeto foi desenvolvido como parte do **Módulo MySQL** do curso **"Bancos de Dados SQL e NoSQL do Básico ao Avançado"** da **Geek University** (Udemy).
+## 🇺🇸 English Description
 
-## Sobre o Projeto:
+This repository contains a complete SQL script for implementing a relational database for a pharmacy management system using **MySQL**.
 
-O objetivo deste projeto prático foi consolidar conhecimentos em modelagem e manipulação de bancos de dados relacionais utilizando MySQL. Ele demonstra um fluxo completo, desde a definição da estrutura até a realização de consultas complexas para extração de insights.
+The project was developed as part of the **MySQL Module** of the course  
+**"SQL and NoSQL Databases from Basic to Advanced"**, offered by **Geek University (Udemy)**.
 
-## Conteúdo do Arquivo `script_completo_farmacia.sql`:
+The main goal of this project is to consolidate fundamental concepts of **relational database modeling**, **data manipulation**, and **SQL querying**, demonstrating a complete workflow from database creation to complex data analysis queries.
 
-O arquivo `script_completo_farmacia.sql` inclui as seguintes etapas e conceitos:
+### Project Highlights
+- Database creation and schema definition using **DDL**
+- Data insertion for testing purposes using **DML**
+- SQL queries using **DQL**, including:
+  - Filters (`WHERE`) and sorting (`ORDER BY`)
+  - Table relationships with `INNER JOIN` and `LEFT JOIN`
+  - Aggregation functions such as `SUM()` and `COUNT()`
+  - Grouping results using `GROUP BY`
+  - Use of aliases for better readability
+- Examples of `UPDATE` and `DELETE` operations with attention to **referential integrity**
 
-1.  **Criação do Banco de Dados e Seleção:**
-    * `DROP DATABASE IF EXISTS farmacia;`
-    * `CREATE DATABASE farmacia;`
-    * `USE farmacia;`
-2.  **DDL (Data Definition Language) - Definição da Estrutura:**
-    * Criação de tabelas essenciais para um sistema de farmácia: `tipos_produtos`, `fabricantes`, `medicos`, `clientes`, `produtos`, `compras`, `produtos_compra`, e `receitas_medica`.
-    * Definição de chaves primárias (`PRIMARY KEY`) e chaves estrangeiras (`FOREIGN KEY`) para estabelecer relacionamentos e garantir a integridade referencial entre as tabelas.
-    * Utilização de `AUTO_INCREMENT` e tipos de dados adequados como `INT`, `VARCHAR`, `TEXT`, `DECIMAL`, `DATE`.
-3.  **DML (Data Manipulation Language) - Inserção de Dados:**
-    * Comandos `INSERT INTO` para popular todas as tabelas com dados de teste, simulando um cenário real de farmácia.
-4.  **DQL (Data Query Language) - Consultas SQL:**
-    * **Consultas Básicas:** `SELECT *` e `SELECT` de colunas específicas, com `ORDER BY`.
-    * **Consultas Complexas com JOINs:** Exemplos práticos de como combinar dados de múltiplas tabelas usando `INNER JOIN` para:
-        * Listar compras e clientes.
-        * Incluir produtos e quantidades em compras.
-        * Calcular o valor total de cada compra.
-        * Associar compras, clientes, produtos e médicos de receitas.
-        * Resumir vendas por fabricante.
-    * **LEFT JOIN:** Demonstração de listagem de médicos e produtos receitados, mesmo que não haja compra associada.
-    * **Funções de Agregação:** Aplicação de `SUM()` para totalização de valores.
-    * **Cláusulas:** Uso de `WHERE` para filtragem e `GROUP BY` para agrupamento de resultados.
-    * **Aliases:** Utilização de `AS` para facilitar a leitura das consultas.
-5.  **Operações DML Adicionais:**
-    * **UPDATE:** Exemplos de atualização de dados existentes em tabelas.
-    * **DELETE:** Demonstração de remoção de registros, com atenção à integridade referencial.
-
-Este script é uma excelente base para entender a construção e manipulação de um banco de dados relacional em MySQL, servindo como um sólido portfólio de habilidades em SQL.
+This project represents a solid foundation for understanding relational databases and SQL best practices using MySQL.
 
 ---
 
-**Autor:** Cleverson Moura Andrade
+## 🇧🇷 Descrição em Português
+
+Este repositório contém um script SQL completo para a implementação de um banco de dados relacional de um **sistema de gerenciamento de farmácia**, utilizando **MySQL**.
+
+O projeto foi desenvolvido como parte do **Módulo MySQL** do curso  
+**"Bancos de Dados SQL e NoSQL do Básico ao Avançado"**, da **Geek University (Udemy)**.
+
+O principal objetivo deste projeto é consolidar conceitos fundamentais de **modelagem de bancos de dados relacionais**, **manipulação de dados** e **consultas SQL**, demonstrando um fluxo completo desde a criação do banco até consultas mais complexas para análise de dados.
+
+### Destaques do Projeto
+- Criação do banco de dados e definição da estrutura utilizando **DDL**
+- Inserção de dados de teste utilizando **DML**
+- Consultas SQL com **DQL**, incluindo:
+  - Filtros (`WHERE`) e ordenação (`ORDER BY`)
+  - Relacionamento entre tabelas com `INNER JOIN` e `LEFT JOIN`
+  - Funções de agregação como `SUM()` e `COUNT()`
+  - Agrupamento de dados com `GROUP BY`
+  - Uso de aliases para melhorar a legibilidade
+- Exemplos de operações `UPDATE` e `DELETE`, respeitando a **integridade referencial**
+
+Este projeto serve como uma excelente base para compreender a construção e manipulação de bancos de dados relacionais em MySQL.
+
+---
+
+## 📁 Repository Structure
+
+- `script_completo_farmacia.sql` — Complete SQL script containing database creation, data insertion, queries, and examples of updates and deletions.
+
+---
+
+## 👤 Author
+
+**Cleverson Moura Andrade**
