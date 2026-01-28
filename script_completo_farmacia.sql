@@ -7,7 +7,6 @@
 -- ###############################################################
 
 -- Author: Cleverson Moura Andrade
--- Autor: Cleverson Moura Andrade
 /*
 Description:
 This SQL script contains the complete implementation of a database for a pharmacy system,
